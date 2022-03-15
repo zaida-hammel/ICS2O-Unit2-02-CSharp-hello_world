@@ -1,25 +1,9 @@
 # ICS2O-Unit2-02-CSharp-hello_world
-###############################################
-# Run GitHub's Super Linter against code base #
-###############################################
+[![GitHub's Super Linter](https://github.com/zaida-hammel/ICS2O-Unit2-02-CSharp-hello_world/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/zaida-hammel/ICS2O-Unit2-02-CSharp-hello_world/actions)
 
----
-name: GitHub's Super Linter
-on: push
 
-jobs:
-  run-linters:
-    name: GitHub's Super Linter
-    runs-on: ubuntu-latest
 
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@master
+[![Run on Repl.it](https://repl.it/badge/github/zaida-hammel/ICS2O-Unit2-02-CSharp-hello_world)](https://repl.it/github/zaida-hammel/ICS2O-Unit2-02-CSharp-hello_world)
 
-      - name: Run GitHub Super Linter
-        uses: github/super-linter@main
-        env:
-          VALIDATE_ALL_CODEBASE: true
-          VALIDATE_JAVASCRIPT_STANDARD: false
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+This site can be found at: [https://zaida-hammel.github.io/ICS2O-Unit2-02-CSharp-hello_world](https://zaida-hammel.github.io/ICS2O-Unit2-02-CSharp-hello_world)
+
